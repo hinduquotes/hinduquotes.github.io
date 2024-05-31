@@ -1,1 +1,0 @@
-# hinduquotes.github.io
