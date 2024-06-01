@@ -6,8 +6,6 @@ body {
     align-items: center;
     height: 100vh;
     margin: 0;
-    background: var(--gradient, linear-gradient(to right, #ff7e5f, #feb47b));
-    /* Default gradient */
     animation: fadeIn 2s ease-in-out;
     transition: background 1s ease-in-out;
   }
