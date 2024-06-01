@@ -1,10 +1,21 @@
-const gradients = [
-    "linear-gradient(to right, #ff7e5f, #feb47b)",
-    "linear-gradient(to right, #43cea2, #185a9d)",
-    "linear-gradient(to right, #ff512f, #dd2476)",
-    "linear-gradient(to right, #6a11cb, #2575fc)",
-    "linear-gradient(to right, #e65c00, #f9d423)",
-    // Add more gradients here
+const images = [
+    "hinduImages/14615.jpg",
+    "hinduImages/21963.jpg",
+    "hinduImages/475892.jpg",
+    "hinduImages/504993.jpg",
+    "hinduImages/504996.jpg",
+    "hinduImages/505003.jpg",
+    "hinduImages/505004.jpg",
+    "hinduImages/505005.jpg",
+    "hinduImages/505007.jpg",
+    "hinduImages/505008.jpg",
+    "hinduImages/505010.jpg",
+    "hinduImages/505015.jpg",
+    "hinduImages/505017.jpg",
+    "hinduImages/505018.jpg",
+    "hinduImages/505021.jpg",
+    "hinduImages/505061.jpg",
+    "hinduImages/505065.jpg"
 ];
 
 document.addEventListener("DOMContentLoaded", function() {
@@ -13,17 +24,15 @@ document.addEventListener("DOMContentLoaded", function() {
     const citationElement = document.getElementById("citation");
     const authorElement = document.getElementById("author");
     const toggleButton = document.getElementById("toggle-sanskrit");
-    document.documentElement.style.setProperty(
-        "--gradient",
-        gradients[Math.floor(Math.random() * gradients.length)]
-    );
+
+    document.body.style.backgroundImage = `url(${images[Math.floor(Math.random() * images.length)]})`;
 
     // Fetch quotes from quotes.json
     fetch("quotes.json")
         .then((response) => response.json())
         .then((data) => {
             const originalQuotes = data; // Store fetched quotes
-            const quotes = [...originalQuotes]; // Make a copy for shuffling
+            let quotes = [...originalQuotes]; // Make a copy for shuffling
 
             // Function to shuffle the quotes array randomly
             function shuffleArray(array) {
