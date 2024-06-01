@@ -39,7 +39,7 @@ body {
   h1 {
     font-size: 0.75em;
     margin-bottom: 20px;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffffa1;
   }
   
   #quote-container {
@@ -57,7 +57,7 @@ body {
   
   #author {
     font-size: 0.75em;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffffa1;
     margin-top: 10px;
     font-family: 'Montserrat', sans-serif;
     /* Change font for author */
@@ -65,7 +65,7 @@ body {
   
   #citation {
     font-size: 0.75em;
-    color: rgba(255, 255, 255, 0.5);
+    color: #ffffffa1;
     font-family: 'Montserrat', sans-serif;
     /* Change font for citation */
   }
@@ -87,7 +87,7 @@ body {
   
   #sanskrit-quote {
     font-size: 1.1em;
-    color: #ffffff;
+    color: #ffffffa1;
     margin-top: 20px;
     font-family: 'Montserrat', sans-serif;
     /* Change font for Sanskrit quote */
