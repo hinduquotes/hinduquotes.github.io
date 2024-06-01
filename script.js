@@ -2,7 +2,6 @@ const images = [
     "hinduImages/14615.jpg",
     "hinduImages/21963.jpg",
     "hinduImages/475892.jpg",
-    "hinduImages/504993.jpg",
     "hinduImages/504996.jpg",
     "hinduImages/505003.jpg",
     "hinduImages/505005.jpg",
